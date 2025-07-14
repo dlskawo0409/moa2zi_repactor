@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24003939437",
+    "project_id": "moa2zi",
+    "storage_bucket": "moa2zi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24003939437:android:aba050d48d24a9a590c364",
+        "android_client_info": {
+          "package_name": "com.ssafy.moa2zi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjNgTv17LGgHLNm_dfevjhIgK2m8YKHwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
