@@ -1,10 +1,13 @@
 name: Jenkins Trigger Workflow
 
 on:
-  push:
-    branches: [ "be" ] # 메인 브랜치에 push할 때만 Jenkins 트리거
-  pull_request:
-    branches: [ "be" ]
+  # push:
+  #   branches: [ "be" ] # 메인 브랜치에 push할 때만 Jenkins 트리거
+  # pull_request:
+  #   branches: [ "be" ]
+    push:
+      branches:
+        - be
 
 jobs:
   trigger-jenkins:
