@@ -17,7 +17,7 @@ public class ErrorCode<T> {
 		this.message = message;
 		this.info = info;
 	}
-`
+
 	public ErrorCode(String code, String message) {
 		this.code = code;
 		this.message = message;
