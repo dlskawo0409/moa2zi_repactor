@@ -36,10 +36,6 @@ public class CustomOAuth2UserService extends DefaultOAuth2UserService {
         if (registrationId.equals("kakao")) {
             oAuth2Response = new KakaoResponse(oAuth2User.getAttributes());
         }
-        // GitHub 로그인 등 추가할 경우
-         else if (registrationId.equals("github")) {
-            oAuth2Response = new GitHubResponse(oAuth2User.getAttributes());
-         }
         else {
             oAuth2Response = null;
             return null;
