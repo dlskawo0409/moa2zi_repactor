@@ -1,4 +1,4 @@
-package com.ssafy.moa2zi.auth.dto;
+package com.ssafy.moa2zi.auth.dto.response;
 
 public interface OAuth2Response {
 
