@@ -1,8 +1,8 @@
 package com.ssafy.moa2zi.auth.domain;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.redis.core.RedisHash;
 
-import jakarta.persistence.Id;
 import lombok.Builder;
 import lombok.Getter;
 
