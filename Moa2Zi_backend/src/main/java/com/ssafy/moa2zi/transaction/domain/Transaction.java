@@ -48,6 +48,7 @@ public class Transaction extends BaseTimeEntity {
     private TransactionType transactionType;
 
     @NotNull
+    @Builder.Default
     private Boolean isInBudget = false;
 
     @NotNull
