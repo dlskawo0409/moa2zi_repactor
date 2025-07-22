@@ -47,4 +47,5 @@ moa2zi-firebase-adminsdk-fbsvc-c7b19b7f0a.json
 
 ### Custom Ingore ###
 */.env
-
+/modules.xml
+/Moa2Zi_backend.main.iml
