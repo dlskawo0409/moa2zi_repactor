@@ -1,0 +1,9 @@
+# 디폴트 무시된 파일
+/shelf/
+/workspace.xml
+/gradle.xml
+/jarRepositories.xml
+/misc.xml
+/Moa2Zi.iml
+/uiDesigner.xml
+/vcs.xml
