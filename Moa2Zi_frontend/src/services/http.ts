@@ -4,7 +4,7 @@ import { queryClient } from "@/lib/queryClient";
 import { reissueToken } from "@/lib/reissueToken";
 
 const apiClient = axios.create({
-  baseURL: "127.0.0.1:8080/api/v1",
+  baseURL: "https://moa2zi.com/api/v1",
   withCredentials: true,
 });
 
