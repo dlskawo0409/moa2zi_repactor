@@ -4,7 +4,7 @@ import { queryClient } from "@/lib/queryClient";
 import { reissueToken } from "@/lib/reissueToken";
 
 const apiClient = axios.create({
-  baseURL: "https://j12a403.p.ssafy.io/api/v1",
+  baseURL: "127.0.0.1:8080/api/v1",
   withCredentials: true,
 });
 
